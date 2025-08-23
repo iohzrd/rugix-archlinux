@@ -1,5 +1,7 @@
 # rugix-archlinux
 
+Bootstrap an embedded Archlinux system for various hardware platforms using [Rugix](https://github.com/silitics/rugix).
+
 ## Usage
 
 ```
