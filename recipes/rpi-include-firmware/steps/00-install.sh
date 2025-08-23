@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-pacman -Syy
-
 CONFIG_DIR="${RUGIX_LAYER_DIR}/roots/config"
 
 RPI_EEPROM_DIGEST="/usr/bin/rpi-eeprom-digest"
