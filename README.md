@@ -5,7 +5,7 @@ Bootstrap an embedded Archlinux system for various hardware platforms using [Rug
 ## Usage
 
 ```
-./run-bakery bake image archlinux-pi
+./run-bakery bake image archlinux-rpi5
 ```
 
 ## Credits
