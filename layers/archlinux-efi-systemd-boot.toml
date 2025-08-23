@@ -1,0 +1,9 @@
+parent = "archlinux-base"
+
+recipes = [
+    "archlinux-systemd-boot-setup"
+]
+
+[parameters."archlinux-systemd-boot-setup"]
+with_firmware = "false"
+with_squashfs = "false"

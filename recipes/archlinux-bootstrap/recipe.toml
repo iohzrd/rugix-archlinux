@@ -1,0 +1,6 @@
+description = "bootstrap Archlinux"
+priority = 10_000_000
+dependencies = []
+
+[parameters]
+extra_packages = { default = "" }

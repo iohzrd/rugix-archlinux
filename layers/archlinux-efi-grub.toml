@@ -1,0 +1,9 @@
+parent = "archlinux-base"
+
+recipes = [
+    "archlinux-grub-setup"
+]
+
+[parameters."archlinux-grub-setup"]
+with_firmware = "false"
+with_squashfs = "false"

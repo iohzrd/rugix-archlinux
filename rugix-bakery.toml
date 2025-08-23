@@ -1,0 +1,22 @@
+[repositories]
+rugix-extra = { git = "https://github.com/silitics/rugix-extra.git", branch = "v0.8" }
+
+[systems.archlinux-efi-grub]
+layer = "archlinux-efi-grub"
+architecture = "amd64"
+target = "generic-grub-efi"
+
+[systems.archlinux-efi-systemd-boot]
+layer = "archlinux-efi-systemd-boot"
+architecture = "amd64"
+target = "generic-grub-efi"
+
+[systems.archlinux-pi]
+layer = "archlinux-pi"
+architecture = "arm64"
+target = "rpi-tryboot"
+
+[systems.archlinux-pi5]
+layer = "archlinux-pi5"
+architecture = "arm64"
+target = "rpi-tryboot"

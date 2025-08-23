@@ -1,0 +1,8 @@
+parent = "archlinux-base"
+
+recipes = [
+    "rpi-archlinux-setup"
+]
+
+[parameters."rpi-archlinux-setup"]
+with_firmware = "false"

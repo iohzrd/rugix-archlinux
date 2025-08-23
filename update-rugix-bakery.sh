@@ -1,0 +1,1 @@
+curl -sfSO https://raw.githubusercontent.com/silitics/rugix/master/bakery/run-bakery && chmod +x ./run-bakery

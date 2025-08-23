@@ -1,0 +1,6 @@
+description = "setup Archlinux for `generic-grub-*` targets"
+dependencies = []
+
+[parameters]
+with_firmware = { default = "true" }
+with_squashfs = { default = "true" }

@@ -1,0 +1,9 @@
+parent = "archlinux-pi"
+
+recipes = [
+    # Include the firmware update for Raspberry Pi 5.
+    "rpi-include-firmware",
+]
+
+[parameters."rpi-include-firmware"]
+model = "pi5"

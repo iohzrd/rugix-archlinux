@@ -1,0 +1,6 @@
+description = "setup systemd-boot on Archlinux"
+dependencies = []
+
+[parameters]
+with_firmware = { default = "true" }
+with_squashfs = { default = "true" }

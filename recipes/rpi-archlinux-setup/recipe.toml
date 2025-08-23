@@ -1,0 +1,6 @@
+description = "setup Archlinux for Raspberry Pi"
+priority = 100_000
+dependencies = ["rugix-ctrl"]
+
+[parameters]
+with_firmware = { default = "false" }
