@@ -1,4 +1,4 @@
-parent = "archlinux-pi"
+parent = "archlinux-rpi-base"
 
 recipes = [
     # Include the firmware update for Raspberry Pi 5.

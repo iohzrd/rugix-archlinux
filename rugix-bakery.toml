@@ -11,12 +11,12 @@ layer = "archlinux-efi-systemd-boot"
 architecture = "amd64"
 target = "generic-grub-efi"
 
-[systems.archlinux-pi]
-layer = "archlinux-pi"
+[systems.archlinux-rpi4]
+layer = "archlinux-rpi4"
 architecture = "arm64"
 target = "rpi-tryboot"
 
-[systems.archlinux-pi5]
-layer = "archlinux-pi5"
+[systems.archlinux-rpi5]
+layer = "archlinux-rpi5"
 architecture = "arm64"
 target = "rpi-tryboot"
