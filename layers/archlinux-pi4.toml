@@ -2,8 +2,8 @@ parent = "archlinux-pi"
 
 recipes = [
     # Include the firmware update for Raspberry Pi 4.
-    "rpi-include-firmware",
+    "rpi-include-firmware-latest",
 ]
 
-[parameters."rpi-include-firmware"]
+[parameters."rpi-include-firmware-latest"]
 model = "pi4"
