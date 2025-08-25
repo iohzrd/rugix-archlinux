@@ -25,7 +25,7 @@ PACMAN_PACKAGES=(
   krb5 e2fsprogs keyutils libidn2 libunistring gcc-libs lz4 libpsl icu libunistring zstd libxml2
 )
 BASIC_PACKAGES=(${PACMAN_PACKAGES[*]} filesystem base)
-EXTRA_PACKAGES=(coreutils bash grep gawk file tar gzip systemd sed)
+EXTRA_PACKAGES=(base-devel bash coreutils tar systemd)
 EXTRA_PACKAGES=(${EXTRA_PACKAGES[*]} ${RECIPE_PARAM_EXTRA_PACKAGES[*]})
 DEFAULT_REPO_URL="http://mirrors.kernel.org/archlinux"
 DEFAULT_ARM_REPO_URL="http://mirror.archlinuxarm.org"
